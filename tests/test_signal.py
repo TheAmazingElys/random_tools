@@ -1,4 +1,4 @@
-from signal import Signal, signal
+from tbd_tools import Signal, signal
 
 signals = [Signal, signal]
 
@@ -12,7 +12,7 @@ def test_signal():
             self.data = []
             
         def log(self, x):
-            self.list.append(x)
+            self.data.append(x)
             
             
     for i in range(len(signals)):
@@ -20,12 +20,12 @@ def test_signal():
         
         i_signal = signals[i]() # create the signal
         logger = Logger() # create the logger
-        i_signal.connect(logger.log()) # connect the signal to the logger
+        i_signal.connect(logger.log) # connect the signal to the logger
         
         i_signal.emit("stuff")
         i_signal.emit("thing")
         
-        assert foo.data == ["stuff", "thing"] # check if everything was logged
+        assert logger.data == ["stuff", "thing"] # check if everything was logged
         
 
 
