@@ -1,4 +1,4 @@
-from tbd_tools import Signal, signal
+from random tools import Signal, signal
 
 signals = [Signal, signal]
 
