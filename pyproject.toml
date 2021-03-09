@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "signal"
+version = "0.1.0"
+description = ""
+authors = ["Robin Allesiardo <robin.allesiardo@gmail.com>"]
+repository = "https://github.com/rallesiardo/signal"
+homepage = "https://github.com/rallesiardo/signal"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
