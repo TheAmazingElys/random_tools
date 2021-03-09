@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "signal"
+name = "tbd_tools"
 version = "0.1.0"
 description = ""
 authors = ["Robin Allesiardo <robin.allesiardo@gmail.com>"]
