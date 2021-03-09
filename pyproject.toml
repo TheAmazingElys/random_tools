@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "tbd_tools"
+name = "random_tools"
 version = "0.1.0"
 description = ""
 authors = ["Elys Allesiardo <elys.allesiardo@orange.com>"]
-repository = "https://github.com/TheAmazingElys/signal"
-homepage = "https://github.com/TheAmazingElys/signal"
+repository = "https://github.com/TheAmazingElys/random_tools"
+homepage = "https://github.com/TheAmazingElys/random_tools"
 
 [tool.poetry.dependencies]
 python = "^3.7"
