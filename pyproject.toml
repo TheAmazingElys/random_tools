@@ -3,6 +3,7 @@ name = "random_tools"
 version = "0.1.0"
 description = ""
 authors = ["Elys Allesiardo <elys.allesiardo@orange.com>"]
+readme = 'README.md'  # Markdown files are supported
 repository = "https://github.com/TheAmazingElys/random_tools"
 homepage = "https://github.com/TheAmazingElys/random_tools"
 
