@@ -33,3 +33,23 @@ false_4 = next(this_true_every_3_calls) # False
 true_2 = next(this_true_every_3_calls) # True
 
 ```
+
+## random_tools.CSS4_ColorPicker
+A tool for sampling CSS4 compatible color names
+
+```python
+from random_tools import CSS4_ColorPicker
+
+    color_picker = CSS4_ColorPicker()
+
+    colors = set()
+    for i in range(nb_color):
+        color = color_picker.sample_color()
+        assert color not in colors
+        colors.add(color)
+        
+    # The picker reset automatiquely when all color have been sampled
+    #  but you can reset it manually too
+    color_picker.reset()
+
+```
