@@ -9,6 +9,7 @@ homepage = "https://github.com/rallesiardo/random_tools"
 
 [tool.poetry.dependencies]
 python = "^3.7"
+matplotlib = "^3.4.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.2"

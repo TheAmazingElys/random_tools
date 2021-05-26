@@ -1,6 +1,7 @@
 __version__ = "0.1.0"
 
 from .signal import Signal
+from .css_color import CSS4_ColorPicker
 
 signal = Signal
 
